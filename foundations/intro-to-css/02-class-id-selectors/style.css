@@ -1,0 +1,19 @@
+.c1 {
+  background-color: rgb(248, 121, 157);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.c2 {
+  font-size: 24px;
+}
+
+#id1 {
+  color: rgb(35, 35, 255);
+  font-size: 36px;
+}
+
+#id2 {
+  background-color: rgb(10, 255, 10);
+  font-size: 24px;
+  font-weight: bold;
+}
