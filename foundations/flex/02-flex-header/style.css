@@ -31,21 +31,15 @@
 .left-links ul {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
   column-gap: 20px;
-  justify-content: flex-start;
   padding: 0px;
-  margin: 0px;
 }
 
 .right-links ul {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
   column-gap: 20px;
-  justify-content: flex-end;
   padding: 0px;
-  margin: 0px;
 }
 
 a {
