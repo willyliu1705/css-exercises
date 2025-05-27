@@ -1,6 +1,12 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* default flex-direction is already row, so no need to set explicitly */
+  /* Add padding for the header to get the whitespace above and below the logo attribute */
+  padding: 10px;
 }
 
 .logo {
@@ -9,11 +15,37 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
-ul {
-  /* this removes the dots on the list items*/
+/* ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+} */
+
+.left-links ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content: flex-start;
+  padding: 0px;
+  margin: 0px;
+}
+
+.right-links ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content: flex-end;
+  padding: 0px;
+  margin: 0px;
 }
 
 a {
